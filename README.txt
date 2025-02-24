@@ -10,5 +10,6 @@ how to run:
 	open terminal
 	go to ..\projekt_122546\frontend\vue
 	run:
+ 	npm install
 	npm run dev
 	Go to the link there: http://localhost:5173
