@@ -12,4 +12,4 @@ how to run:
 	run:
  	npm install
 	npm run dev
-	Go to the link there: http://localhost:5173
+	Go to the link displayed in the terminal
