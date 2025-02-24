@@ -1,0 +1,39 @@
+@import './base.css';
+
+#app {
+  margin: 0;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 2rem;
+  font-weight: normal;
+  width: 100%;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-text);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--color-hover);
+  }
+}
+
+@media (min-width: 512px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    padding: 0;
+  }
+}
